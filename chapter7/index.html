@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+        <legend>User Information</legend>
+    <form action="thankyou.html" method="post">
+        <label for="name">Enter your name:</label><br>
+        <input type="text" id="name" placeholder="name..." name="name"><br> 
+        <label for="password">Enter your password:</label><br>
+        <input type="text" placeholder="password..."name="password" id="password"><br> 
+        <label for="aboutYou">Tell us about you</label><br>
+        <textarea name="abouYou" rows="5" cols="30">
+
+        </textarea>   
+</fieldset>
+<p>Are you new to my site?</p>
+    <input type="radio" id="yes" name="new" value="yes">
+      <label for="yes">yes</label>
+    <input type="radio" id="no" name="new" value="no">
+      <label for="no">no</label><br>
+    <label for="blog">Do you want to subscribe to my blog?</label> 
+    <input type="checkbox" id="blog" name="blog" value="blog"><br>
+    <label for="years">What is your student's year?</label>
+    <select name="years" id="years">
+      <option value="0">Select one option</option>
+      <option value="1">First</option>
+      <option value="2">Second</option>
+      <option value="3">Third</option>
+      <option value="4">Forth</option><br>
+      </select><br>
+      <label for="hear">Where did you hear about me?</label><br>
+    <select name="hear" id="hear" multiple>
+      <option value="0">Select one option</option>
+      <option value="1">Community</option>
+      <option value="2">Web</option>
+      <option value="3">Newspaper</option>
+      <option value="4">Friends</option>
+    </select><br>
+    <input type="submit" value="SEND"><br>
+
+</form>
+    
+</body>
+</html>
