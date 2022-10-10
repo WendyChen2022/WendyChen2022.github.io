@@ -1,0 +1,65 @@
+
+* {
+    font-family: Arial, Verdana, sans-serif;
+    color: #665544;
+    text-align: center;}
+body {
+    width: 90%;
+    margin: 0 auto;
+    
+}
+#content {
+    overflow: auto;}
+#nav, #feature, #footer {
+    margin: 1%;}
+.column1, .column2, .column3 {
+    width: 31.3%;
+    float: left;
+    margin: 1%;
+}
+.column3 {
+    margin-right: 0%;}
+li {
+    display: inline;
+    padding: 0.5em;}
+#nav, #footer {
+    background-color: #cef717;
+    padding: 0.5em 0;
+}
+#feature, .article {
+    height: 10em;
+    margin-bottom: 1em;
+   }
+   #nav {
+    background-color: #f717d5;
+}
+  
+    .column1{
+        background-color: cyan;
+    }
+    .column2{
+        background-color: rgb(34, 106, 241);
+    }
+    .column3{
+        background-color: cyan;
+    }
+   #footer {
+        background-color: #f717d5;
+    }
+    #feature {
+        background-image: url("flower.jpg");
+        background-color:  #8CC63E;
+        background-size:contain;
+        background-position: right;
+        background-repeat:no-repeat;
+
+    }
+   body {
+    background-image: url("background.jpg");
+   }
+   h1 {
+    font-family: 'DancingScriptRegular';
+   font-weight: normal;
+   font-style: normal;
+ } 
+
