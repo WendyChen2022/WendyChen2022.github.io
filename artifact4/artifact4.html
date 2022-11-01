@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validate Contact Us Form using Javascript</title>
+    <script src="countries.js" type="text/javascript"></script>
+    <script src="validator.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="art4.css">
+</head>
+<body>
+    <h2>Validate Contact Us Form</h2>
+    <form action="ty.html" id="myform" onsubmit="return isValid()">
+        <p>
+            <label for='FirstName'>First Name:</label>
+            <input type="text" id="FirstName" name="FirstName" placeholder="alphabetical, 20 max"/>
+            <div id="errorMessages1"></div>
+        </p>
+        <p>
+            <label for='LastName'>Last Name:</label>
+            <input type="text" id="LastName" name="LastName" placeholder="alphabetical, 50 max"/>
+            <div id="errorMessages2"></div>
+        </p>
+        <p>
+            <label for='Email'>Email:</label>
+            <input type="email" id="Email" name="Email" placeholder="required"/>
+            <div id="errorMessages3"></div>
+        </p>
+        <p>
+            <label for='Phone'>Phone:</label>
+            <input type="text" id="Phone" name="Phone" placeholder="required, 15 max"/>
+            <div id="errorMessages4"></div>
+        </p>
+        <p>
+            <label for='Username'>Username:</label>
+            <input type="text" id="Username" name="Username" placeholder="required, 12 characters max"/>
+            <div id="errorMessages5"></div>
+        </p>
+        <p>
+            <label for='Password'>Password:</label>
+            <input type="password" id="Password" name="Password" placeholder="required, 7 characters max"/>
+            <div id="errorMessages6"></div>
+        </p>
+        <p>
+            <label for='Address'>Address:</label>
+            <textarea cols="20" rows="5" id="Address" name="Address" placeholder="required"></textarea>
+            <div id="errorMessages7"></div>
+        </p>
+        <p>
+            <label for='Country'>Country:</label>
+            <select id="Country"  name="Country">
+                <option value="000" selected="selected">[choose your country]</option>  
+            </select>
+            <div class="errorMessages" id="errorMessages8"></div>
+        </p>
+        <p>
+            <label for='State'>State:</label>
+            <select id="State"  name="State">
+                <option value="000" selected="selected">[choose your state]</option>
+                  
+            </select>
+            <div class="errorMessages" id="errorMessages9"></div>  
+        </p>
+        <p>
+            <label for='City'>City:</label>
+            <select id="City"  name="City">
+                <option value="000" selected="selected">[choose your city]</option>         
+            </select>
+            <div class="errorMessages" id="errorMessages10"></div> 
+        </p>
+        <div id="Code">
+                <label for="zip">ZipCode:</label>
+                <input type="text" id="zip" name="zip"/>
+                <div class="errorMessages" id="errorMessages11"></div>
+        </div>
+        <p>
+            <input id='Submit' type="submit" name="submit" value="Submit">
+            <div id="submiterror"></div>
+        </p>
+        </form>
+    </body>
+    </html>
