@@ -1,0 +1,16 @@
+h2{
+    margin: auto;
+    color: coral;
+}
+.warning {
+    color:red;
+}
+
+
+#Code{
+    display: none;
+}
+.errorBorder{
+    border: 1px,solid;
+    color: red;
+}
