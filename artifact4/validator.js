@@ -1,6 +1,6 @@
 
 window.addEventListener('load', function() {
-    document.getElementById('myform').addEventListener('submit', isValid);
+    document.getElementById('Submit').addEventListener('click', isValid);
     function isValid() {  
         if (firstName() && lastName() &&email() &&phone () && username() && password() && address() && country() &&state() && city() && zipcode()
         ){
