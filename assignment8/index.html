@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript &amp; jQuery - Chapter 5: Document Object Model - Add Element</title>
+    <link rel="stylesheet" href="https://javascriptbook.com/code/c05/css/c05.css" />
+</head>
+<body>
+    <div id="page">
+        <h1 id="header">List</h1>
+        <h2>Buy groceries</h2>
+        <ul id="todo">
+            <li id="one" class="hot"><em>fresh</em> figs</li>
+            <li id="two" class="hot">pine nuts</li>
+            <li id="three" class="hot">honey</li>
+            <li id="four">balsamic vinegar</li>
+        </ul>
+      </div>
+      <div>
+        <input type="text" id="items">
+      <button id="btnAddElement" onclick="addNewItem();">Add new item</button>
+      </div>
+      
+    <script>
+        function addNewItem(){
+    var newItem = document.getElementById('items').value;
+// Create a new element and store it in a variable.
+var newEl = document.createElement('li');
+
+// Create a text node and store it in a variable.
+var newText = document.createTextNode(newItem);
+
+// Attach the new text node to the new element.
+newEl.appendChild(newText);
+
+// Find the position where the new element should be added.
+var position = document.getElementsByTagName('ul')[0];
+
+// Insert the new element into its position.
+position.appendChild(newEl);
+}
+</script>
+</body>
+</html>
