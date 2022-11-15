@@ -1,4 +1,3 @@
-
 var mybutton = document.querySelector("button");
 mybutton.addEventListener("click", function(event) {
     var element = document.getElementsByTagName("div");
@@ -25,7 +24,6 @@ addEventListener("click",function(event) {
 
     document.body.appendChild(dot);
 });
-
 
 
 
