@@ -9,3 +9,7 @@ body{
     border: 2px solid blue;
     height: 0.01px; width: 0.01px; 
 }
+#size{
+    width: 20px;
+}
+
