@@ -1,3 +1,4 @@
+
 body{
     background-color: #FAF9DE;
 }
@@ -8,7 +9,4 @@ body{
     border-radius: 50px;
     border: 2px solid blue;
     height: 1px; width: 1px; 
-}
-.dotChange{
-    border: "size.value"px solid "color.value";  
 }
