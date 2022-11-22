@@ -1,0 +1,59 @@
+h1 {
+    font-family: 'DancingScriptRegular';
+   font-weight: normal;
+   font-style: normal;
+   text-align: center;
+ } 
+ #nav {
+    margin: 1%;
+    background-color: #cef717;
+    padding: 0.5em 0;
+}
+li {
+    display: inline;
+    padding: 0.5em;}
+#nav{
+        font-family: Arial, Verdana, sans-serif;
+        color: #665544;
+        text-align: center;
+    }   
+    #first, #second,#third{
+        width: 31%;
+        height: 300px;
+        float: left;
+        margin: 1%;
+        border: 0px;
+        border-radius: 10px;
+        background-color: #FDE6E0;
+       
+    }
+
+h3{
+    text-align: center;
+}
+
+h4{
+    text-align: center;
+}
+img.hiking,img.camping,img.badguys	{
+    float: left;
+    margin-right: 10px;
+    width: 99%;
+    height: 180px;
+
+    border-style: solid;
+    border-color: #665544;
+	
+}
+.center{
+    text-align: center;
+}
+#footer {
+    float: left;
+    background-color: #b0a9af;
+    text-align: center;
+    margin: 1%;
+    padding: 0.5em 0;
+    width: 98%;
+}
+

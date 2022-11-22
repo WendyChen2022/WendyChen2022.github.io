@@ -1,0 +1,32 @@
+
+body{
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#nav{
+    margin: 1%;
+    background-color: #cef717;;
+    padding: 0.5em 0;
+}
+li {
+    display: inline;
+    padding: 0.5em;}
+#nav{
+        font-family: Arial, Verdana, sans-serif;
+        color: #665544;
+        text-align: center;
+    }
+    h1 {
+        font-family: 'DancingScriptRegular';
+       font-weight: normal;
+       font-style: normal;
+       text-align: center;
+     } 
+     #footer {
+        background-color: #b0a9af;
+        text-align: center;
+        margin: 1%;
+        padding: 0.5em 0;
+    }
+    
