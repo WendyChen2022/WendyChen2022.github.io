@@ -1,0 +1,13 @@
+#nav {
+    margin: 1%;
+    background-color: #cef717;
+    padding: 0.5em 0;
+}
+li {
+    display: inline;
+    padding: 0.5em;}
+#nav{
+        font-family: Arial, Verdana, sans-serif;
+        color: #665544;
+        text-align: center;
+    }

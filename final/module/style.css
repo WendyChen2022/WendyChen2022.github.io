@@ -1,0 +1,47 @@
+h1 {
+    font-family: 'DancingScriptRegular';
+   font-weight: normal;
+   font-style: normal;
+   text-align: center;
+ } 
+ #nav {
+    margin: 1%;
+    background-color: #cef717;
+    padding: 0.5em 0;
+}
+li {
+    display: inline;
+    padding: 0.5em;}
+#nav{
+        font-family: Arial, Verdana, sans-serif;
+        color: #665544;
+        text-align: center;
+    }
+
+
+#first, #second,#third,#forth,#fifth,#sixth,#seventh,#eighth{
+    width: 17.9%;
+    height: 300px;
+    float: left;
+    margin: 1%;
+    border: 0px;
+    border-radius: 10px;
+    background-color: #FAF9DE;
+   
+}
+h3{
+    text-align: center;
+}
+h4{
+    text-align: center;
+}
+img	{
+    float: left;
+    margin-right: 10px;
+    width: 98%;
+    height: 180px;
+
+    border-style: solid;
+    border-color: #665544;
+	
+}
